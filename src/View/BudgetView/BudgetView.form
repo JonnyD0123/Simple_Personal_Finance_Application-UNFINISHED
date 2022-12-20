@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="View.BudgetView.BudgetView">
+  <grid id="27dc6" binding="budgetPanel" layout-manager="GridLayoutManager" row-count="8" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="93" width="544" height="653"/>
+    </constraints>
+    <properties>
+      <enabled value="true"/>
+      <opaque value="false"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="65a11" class="javax.swing.JLabel" binding="lblSave">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="219" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Save"/>
+        </properties>
+      </component>
+      <component id="89f09" class="javax.swing.JTextField" binding="txtSave">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="$"/>
+        </properties>
+      </component>
+      <component id="cd799" class="javax.swing.JLabel" binding="lblSpend">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="219" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Spend"/>
+        </properties>
+      </component>
+      <component id="7507" class="javax.swing.JTextField" binding="txtSpend">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="$"/>
+          <toolTipText value=""/>
+        </properties>
+      </component>
+      <component id="9163d" class="javax.swing.JLabel" binding="lbl_Invest">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="219" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Invest"/>
+        </properties>
+      </component>
+      <component id="647fa" class="javax.swing.JTextField" binding="txtInvest">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="$"/>
+        </properties>
+      </component>
+      <component id="51917" class="javax.swing.JLabel" binding="lblBudget">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="1"/>
+          <text value="Budget"/>
+        </properties>
+      </component>
+      <component id="a0f9e" class="javax.swing.JLabel" binding="lblTotalIncome">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="219" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Total Income"/>
+        </properties>
+      </component>
+      <component id="d61ea" class="javax.swing.JTextField" binding="txtTotalIncome">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="$"/>
+        </properties>
+      </component>
+      <component id="cf9bf" class="javax.swing.JButton" binding="nextBtn">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="204" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Next"/>
+        </properties>
+      </component>
+      <component id="7e579" class="javax.swing.JButton" binding="generateBudgetBtn">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Generate Budget"/>
+        </properties>
+      </component>
+      <component id="77714" class="javax.swing.JButton" binding="previousBtn">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="204" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Previous"/>
+        </properties>
+      </component>
+      <component id="274ae" class="javax.swing.JButton" binding="deleteBudgetBtn">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Delete Budget"/>
+        </properties>
+      </component>
+      <component id="17148" class="javax.swing.JButton" binding="updateBtn">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="204" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <label value="Update Budget"/>
+          <text value="Update Budget"/>
+        </properties>
+      </component>
+      <component id="85876" class="javax.swing.JButton" binding="btnBack">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="204" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Back to Budget List"/>
+        </properties>
+      </component>
+      <component id="22e51" class="javax.swing.JButton" binding="btnSave">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Save"/>
+        </properties>
+      </component>
+      <component id="bb468" class="javax.swing.JButton" binding="quitBtn">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="204" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Quit"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
